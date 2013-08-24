@@ -1,0 +1,20 @@
+{
+	"name": "cohensive/recaptcha",
+	"description": "",
+	"authors": [
+		{
+			"name": "Kane Cohen",
+			"email": "kanecohen@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"recaptcha/php5": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"Cohensive\\Recaptcha": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
