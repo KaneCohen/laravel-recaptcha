@@ -2,7 +2,7 @@
 
 return array(
 
-	'publicKey'      => '',
-	'privateKey'     => ''
+	'publicKey'      => null,
+	'privateKey'     => null
 
 );

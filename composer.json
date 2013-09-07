@@ -1,6 +1,8 @@
 {
 	"name": "cohensive/recaptcha",
-	"description": "",
+	"description": "Laravel 4 bridge for recaptcha/php5",
+	"keywords": ["laravel", "captcha", "recaptcha"],
+	"license": "DBAD",
 	"authors": [
 		{
 			"name": "Kane Cohen",
