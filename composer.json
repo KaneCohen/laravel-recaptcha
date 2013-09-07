@@ -2,7 +2,7 @@
 	"name": "cohensive/recaptcha",
 	"description": "Laravel 4 bridge for recaptcha/php5",
 	"keywords": ["laravel", "captcha", "recaptcha"],
-	"license": "DBAD",
+	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Kane Cohen",
