@@ -4,7 +4,8 @@ namespace Cohensive\Recaptcha;
 use Captcha\Captcha;
 use Illuminate\Foundation\Application as Application;
 
-class Factory {
+class Factory
+{
 
 	protected $app;
 	protected $validator;

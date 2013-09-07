@@ -33,3 +33,10 @@ In aliases:
 
 )
 ~~~
+
+And after all that, we need to add config file, which will hold our private and public keys.
+Run following line in command line:
+
+~~~
+	php artisan config:publish cohensive/recaptcha
+~~~
