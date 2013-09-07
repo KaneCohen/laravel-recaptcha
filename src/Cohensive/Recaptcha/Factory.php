@@ -31,7 +31,7 @@ class Factory
 	 */
 	public function __call($method, $parameters)
 	{
-		return $this->captcha->$method();
+		return call_user_func_array(array($this->captcha(), $method), $parameters);
 	}
 
 }
