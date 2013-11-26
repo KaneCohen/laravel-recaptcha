@@ -5,16 +5,7 @@ use Illuminate\Support\ServiceProvider;
 
 class RecaptchaServiceProvider extends ServiceProvider
 {
-  /**
-   * Indicates if loading of the provider is deferred.
-   *
-   * @var bool
-   */
-  protected $defer = true;
 
-	/*
-	 *Bootstrap application events
-	 */
 	public function boot()
 	{
 		$this->registerRecaptchaValidator();
