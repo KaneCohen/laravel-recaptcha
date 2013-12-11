@@ -1,5 +1,4 @@
-<?php
-namespace Cohensive\Recaptcha;
+<?php namespace Cohensive\Recaptcha;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,7 +18,7 @@ class RecaptchaServiceProvider extends ServiceProvider
 	public function register()
 	{
     $this->package('cohensive/recaptcha');
-		$this->app['recaptcha'] = $this->app->share(function($app)
+		$this->app->bindShared('recaptcha', function($app)
 		{
 			return new Factory($app);
 		});
